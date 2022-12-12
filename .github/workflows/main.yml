@@ -17,7 +17,7 @@ jobs:
       - run: |
           pipenv run pytest
       - run: |
-          pipenv run flake8 src tests
+          pipenv run flake8 github_slugger tests
     strategy:
       matrix:
         python-version:
