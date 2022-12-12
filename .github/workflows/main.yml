@@ -7,15 +7,20 @@ jobs:
     name: ${{matrix.node}}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: dcodeIO/setup-node-nvm@master
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
-          node-version: ${{matrix.node}}
-      - run: npm install
-      - run: npm test
-      - uses: codecov/codecov-action@v1
+          node-version: ${{matrix.python-version}}
+      - run: |
+          python -m pip install --upgrade pip pipenv
+          pipenv install --dev
+      - run: |
+          pipenv run pytest
+      - run: |
+          pipenv run flake8 src tests
     strategy:
       matrix:
-        node:
-          - lts/fermium
-          - node
+        python-version:
+          - "3.7"
+          - "3.8"
+          - "3.9"

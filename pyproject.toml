@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "github_slugger"
+version = "0.0.2"
+description = "Generate a slug just like GitHub does for markdown headings. (JavaScript Port)"
+readme = "README.md"
+authors = [
+    { name = "Dan Flettre", email = "flettre@gmail.com" },
+    { name = "Titus Wormer", email = "tituswormer@gmail.com", homepage = "http://wooorm.com" },
+    { name = "Martin Heidegger", email = "martin.heidegger@gmail.comn" }
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Topic :: Text Processing :: General",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: ISC License (ISCL)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["slug", "heading", "processor"]
+dependencies = []
+requires-python = ">=3"
+
+[project.urls]
+Homepage = "https://github.com/martinheidegger/github_slugger"
+"Bug Tracker" = "https://github.com/martinheidegger/github_slugger/issues"
+
+
