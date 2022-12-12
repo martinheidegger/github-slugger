@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+github_slugger/__init__.py
+github_slugger/regex.py
+github_slugger/replace.py
+github_slugger/slug.py
+github_slugger.egg-info/PKG-INFO
+github_slugger.egg-info/SOURCES.txt
+github_slugger.egg-info/dependency_links.txt
+github_slugger.egg-info/top_level.txt

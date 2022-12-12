@@ -1,3 +1,27 @@
+Metadata-Version: 2.1
+Name: github-slugger
+Version: 0.0.3
+Summary: Generate a slug just like GitHub does for markdown headings. (JavaScript Port)
+Author-email: Dan Flettre <flettre@gmail.com>, Titus Wormer <tituswormer@gmail.com>, Martin Heidegger <martin.heidegger@gmail.comn>
+License: Copyright (c) 2015, Dan Flettre <fletd01@yahoo.com>
+        
+        Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+        
+        THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/martinheidegger/github_slugger
+Project-URL: Bug Tracker, https://github.com/martinheidegger/github_slugger/issues
+Keywords: slug,heading,processor
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # github-slugger
 
 [![Build][build-badge]][build]

@@ -1,6 +1,6 @@
 import json
 import os
-from src.slug import GithubSlugger, slug
+from github_slugger import GithubSlugger, slug
 
 dirname = os.path.dirname(__file__)
 

@@ -1,4 +1,4 @@
-from src.replace import replace
+from .replace import replace
 
 
 class GithubSlugger:

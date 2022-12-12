@@ -1,4 +1,4 @@
-from src.regex import single_byte, multi_byte
+from .regex import single_byte, multi_byte
 
 
 def range_matcher(lower, higher):
